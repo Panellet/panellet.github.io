@@ -24,7 +24,7 @@ io.on('connection', function(socket){
 
 //We make the http server listen on port 3000.
 var SERVER_PORT = process.env.OPENSHIFT_NODEJS_PORT || 8080,
-SERVER_IP = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+SERVER_IP = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
 http.listen(SERVER_PORT, SERVER_IP, function() {
 console.log('Listening on ' + SERVER_PORT + ':' + SERVER_IP);
