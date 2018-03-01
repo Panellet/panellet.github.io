@@ -4,20 +4,9 @@
   "description": "my first socket.io app",
   "dependencies": {
     "express": "^4.15.2",
-    "socket.io": "^2.0.4"
-    
-    npm install --save PACKAGE_NAME
-    "scripts": {
-  "start": "node index.js"
-},
-"main": "index.js"
-    
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
-  
-  
-
-
-
-
-
 }
